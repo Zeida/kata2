@@ -2,7 +2,6 @@ package kata2;
 import java.util.*;
 
 public class Histogram {
-
     private final int[] data;
 
     public Histogram(int[] data) {
