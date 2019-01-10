@@ -13,7 +13,6 @@ public class Kata2 {
         for (int value : data) {
             histogram.put(value, histogram.containsKey(value) ? histogram.get(value)+ 1:1);
         }
-
         histogram.keySet().forEach((key) -> {
             System.out.println(key + " --> " + histogram.get(key));
         });
